@@ -10,6 +10,7 @@ body {
 
 .card-body {
   background: #d9edfd;
+  border: 1px solid #dadde1;
 }
 
 .current-city {
