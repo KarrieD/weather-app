@@ -1,0 +1,65 @@
+body {
+  max-width: 375px;
+}
+
+.container {
+  padding: 30px;
+}
+
+.card-body {
+  background: #d9edfd;
+}
+
+.current-city {
+  font-size: 30px;
+  color: blue;
+  opacity: 50%;
+}
+
+.date-time {
+  margin-top: 0;
+  color: red;
+  font-size: 18px;
+}
+
+.weather-description {
+  color: blue;
+  padding-bottom: 20px;
+}
+
+.col-6 {
+  font-size: 40px;
+  padding-bottom: 28px;
+}
+
+.col-4 {
+  font-size: 12px;
+}
+
+.forecast {
+  padding-top: 100px;
+}
+
+input[type="text"] {
+  border-radius: 15px;
+  line-height: 25px;
+  border-width: 0.5px;
+}
+
+input[type="submit"] {
+  border-radius: 20px;
+  line-height: 20px;
+}
+
+button {
+  display: block;
+  margin: auto 0px;
+  border-radius: 20px;
+  line-height: 20px;
+  background-color: green;
+  color: white;
+}
+
+ul {
+  padding: 0;
+}
