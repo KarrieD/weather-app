@@ -1,5 +1,7 @@
 body {
-  max-width: 375px;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 .container {
@@ -52,8 +54,7 @@ input[type="submit"] {
 }
 
 button {
-  display: block;
-  margin: auto 0px;
+  display: inline-block;
   border-radius: 20px;
   line-height: 20px;
   background-color: green;
