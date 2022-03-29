@@ -64,3 +64,11 @@ button {
 ul {
   padding: 0;
 }
+
+p {
+  font-size: small;
+}
+
+a:link {
+  text-decoration: none;
+}
