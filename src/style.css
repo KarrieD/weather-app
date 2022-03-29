@@ -3,6 +3,36 @@ body {
   margin: 0 auto;
   max-width: 600px;
 }
+button {
+  display: inline-block;
+  border-radius: 20px;
+  line-height: 20px;
+  background-color: green;
+  color: white;
+}
+
+ul {
+  padding: 0;
+}
+
+p {
+  font-size: small;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+input[type="text"] {
+  border-radius: 15px;
+  line-height: 25px;
+  border-width: 0.5px;
+}
+
+input[type="submit"] {
+  border-radius: 20px;
+  line-height: 20px;
+}
 
 .container {
   padding: 30px;
@@ -41,35 +71,4 @@ body {
 
 .forecast {
   padding-top: 100px;
-}
-
-input[type="text"] {
-  border-radius: 15px;
-  line-height: 25px;
-  border-width: 0.5px;
-}
-
-input[type="submit"] {
-  border-radius: 20px;
-  line-height: 20px;
-}
-
-button {
-  display: inline-block;
-  border-radius: 20px;
-  line-height: 20px;
-  background-color: green;
-  color: white;
-}
-
-ul {
-  padding: 0;
-}
-
-p {
-  font-size: small;
-}
-
-a:link {
-  text-decoration: none;
 }
