@@ -21,7 +21,7 @@ a:link {
   text-decoration: none;
 }
 
-input[type="text"] {
+input[type="search"] {
   border-radius: 15px;
   line-height: 25px;
   border-width: 0.5px;
