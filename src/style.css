@@ -1,7 +1,5 @@
 body {
-  display: block;
-  margin: 0 auto;
-  max-width: 600px;
+  font-family: arial, sans-serif;
 }
 button {
   display: inline-block;
@@ -38,9 +36,15 @@ input[type="submit"] {
   padding: 30px;
 }
 
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
 .card-body {
   background: #d9edfd;
   border: 1px solid #dadde1;
+  border-radius: 10px;
 }
 
 .current-city {
