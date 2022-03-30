@@ -18,37 +18,35 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>🌤️ Weather App 🌦️</title>
   </head>
+
   <body>
     <div class="container">
       <div class="card">
         <div class="card-body">
           <div class="interaction">
-          <form id="search-form">
-            <input
-              type="text"
-              placeholder=" Enter a city"
-              autocomplete="off"
-              autofocus="on"
-              id="search-text-input"
-            />
-            <input type="submit" class="btn btn-primary" />
-</form>
+            <form id="search-form">
+              <input
+                type="text"
+                placeholder=" Enter a city"
+                autocomplete="off"
+                autofocus="on"
+                id="search-text-input"
+              />
+              <input type="submit" class="btn btn-primary" />
+            </form>
 
-            <button id="current-location" class="float-left btn btn-success">Current Location</button>
-</div>
+            <button id="current-location" class="float-left btn btn-success">
+              Current Location
+            </button>
+          </div>
           <div class="current-city" id="city-output">
             <em></em>
           </div>
           <div class="date-time" id="date-time">Local Time</div>
-          <div class="weather-description" id="weather-description"> </div>
+          <div class="weather-description" id="weather-description"></div>
           <div class="row">
-            <div class="clearfix">
-            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="mostly cloudy"
-            class="float-left"
-            />
-            <div class="col-6" id="currentTemp"> -
-              <i id="current-temp-icon"></i> °
+            <div class="col-6" id="currentTemp">
+              - <i id="current-temp-icon"></i> °
             </div>
 
             <div class="col-4">
@@ -57,8 +55,15 @@
             </div>
           </div>
         </div>
-        <p>
-          <a href="https://github.com/KarrieD/weather-app" class="codeLink"> Open-source code</a> by Karrie Brooks</p>
+      </div>
+      <p>
+        <a href="https://github.com/KarrieD/weather-app" class="codeLink">
+          Open-source code</a
+        >
+        by Karrie Brooks
+      </p>
+    </div>
+
     <script src="src/datatypes.js"></script>
   </body>
 </html>
