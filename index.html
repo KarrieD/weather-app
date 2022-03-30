@@ -25,19 +25,29 @@
         <div class="card-body">
           <div class="interaction">
             <form id="search-form">
-              <input
-                type="search"
-                placeholder=" Enter a city.."
-                autocomplete="off"
-                autofocus="on"
-                id="search-text-input"
-              />
-              <input type="submit" class="btn btn-primary" />
+              <div class="row">
+                <div class="col-5">
+                  <input
+                    type="search"
+                    placeholder=" Enter a city.."
+                    autocomplete="off"
+                    autofocus="on"
+                    id="search-text-input"
+                  />
+                </div>
+                <div class="col-3">
+                  <input type="submit" class="btn btn-primary" />
+                </div>
+                <div class="col-4">
+                  <button
+                    id="current-location"
+                    class="float-left btn btn-success"
+                  >
+                    Current Location
+                  </button>
+                </div>
+              </div>
             </form>
-
-            <button id="current-location" class="float-left btn btn-success">
-              Current Location
-            </button>
           </div>
           <div class="current-city" id="city-output">
             <em></em>
