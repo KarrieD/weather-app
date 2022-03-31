@@ -4,10 +4,11 @@ body {
 button {
   display: inline-block;
   border-radius: 20px;
-  line-height: 20px;
+  line-height: 22px;
   background-color: green;
   color: white;
   width: 100%;
+  margin: -10px;
 }
 
 ul {
@@ -32,8 +33,9 @@ input[type="search"] {
 
 input[type="submit"] {
   border-radius: 20px;
-  line-height: 20px;
-  width: 100%;
+  line-height: 22px;
+  width: 120%;
+  margin: -20px;
 }
 
 .container {
@@ -52,7 +54,7 @@ input[type="submit"] {
 }
 
 .current-city {
-  padding: 0px;
+  padding-top: 10px;
   margin: 0;
   font-size: 30px;
   color: blue;
@@ -60,8 +62,7 @@ input[type="submit"] {
 }
 
 .date-time {
-  padding: 0px;
-  margin-top: 0;
+  padding-top: 10px;
   color: red;
   font-size: 18px;
   line-height: 18px;
